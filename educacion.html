@@ -71,6 +71,25 @@
     <form name="Estudios">
       <fieldset>
         <legend><h2>Agregar Estudios</h2></legend>
+        <p>
+          <label for="ano">Año: </label>
+            <select name="ano">
+            <option value="1">2018</option>
+            <option value="2">2017</option>
+            <option value="3">2016</option>
+          </select>
+        </p>
+        <p>
+          <label for="institucion">Institucion: </label>
+          <input type="text" autofocus="autofocus"  name="usuario" placeholder="Ej: liceo X" required >
+        </p>
+        <p>
+          <label for="lugar">Lugar: </label>
+          <textarea name="lugar" id="" cols="30" rows="3"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Registrar">
+        </p>
       </fieldset>
     </form>
   </body>
